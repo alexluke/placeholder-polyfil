@@ -10,6 +10,6 @@ Use [Modernizr](http://modernizr.com/) to load this script for browsers that do 
 ```js
 Modernizr.load({
 	test: Modernizr.input.placeholder,
-	nope: 'placeholder.js'
+	nope: 'placeholder.min.js'
 })
 ```
