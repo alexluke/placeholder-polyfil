@@ -1,0 +1,8 @@
+{
+  "name": "Placeholder Polyfil",
+  "version": "1.0.0",
+  "main": "placeholder.js",
+  "dependencies": {
+    "jquery": "~1.6"
+  }
+}
