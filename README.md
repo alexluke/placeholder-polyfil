@@ -13,3 +13,4 @@ Modernizr.load({
 	nope: 'placeholder.min.js'
 })
 ```
+Requires >= jQuery 1.6
