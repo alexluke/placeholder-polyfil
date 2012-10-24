@@ -8,7 +8,7 @@
 ;(function($) {
 	$(function() {
 		$('input[placeholder]').each(function() {
-			$this = $(this);
+			var $this = $(this);
 			var ph = $this.prop('placeholder');
 			if (ph != '' && $this.val() == '') {
 				$this.val(ph);
@@ -30,7 +30,7 @@
 		// Clear out placeholder values before submission
 		$('form:has(input[placeholder])').submit(function() {
 			$('input[placeholder]', this).each(function() {
-				$this = $(this);
+				var $this = $(this);
 				var ph = $this.prop('placeholder');
 				if (ph != '' && $this.val() == ph)
 					$this.val('');
