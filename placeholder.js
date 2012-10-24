@@ -9,7 +9,7 @@
 	$(function() {
 		$('input[placeholder]').each(function() {
 			var $this = $(this);
-			var ph = $this.prop('placeholder');
+			var ph = $this.attr('placeholder');
 			if (ph != '' && $this.val() == '') {
 				$this.val(ph);
 				$this.addClass('placeholder');
@@ -31,7 +31,7 @@
 		$('form:has(input[placeholder])').submit(function() {
 			$('input[placeholder]', this).each(function() {
 				var $this = $(this);
-				var ph = $this.prop('placeholder');
+				var ph = $this.attr('placeholder');
 				if (ph != '' && $this.val() == ph)
 					$this.val('');
 			});
