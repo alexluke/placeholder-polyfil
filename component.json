@@ -1,5 +1,5 @@
 {
-  "name": "Placeholder Polyfil",
+  "name": "PlaceholderPolyfil",
   "version": "1.0.0",
   "main": "placeholder.js",
   "dependencies": {
